@@ -6,14 +6,17 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class Configuration_javaBased {
 
-	    @Bean("Bean_name_Alok")
-	    public Student_Model stdmethod() {
+	    @Bean
+	    public Model stdmethod() {
 	        
-	    	Student_Model std = new Student_Model();
+	    	Model std = new Model();
 	    	std.setMessage(" Hello world!");
 	    	
+	    	Model std2 = new Model();
+	    	std2.setMessage(" Hiiiiiiiiiiii!");
 	    
-	        return std;
+	        return std2;
+	        
 	    }
 
 	}

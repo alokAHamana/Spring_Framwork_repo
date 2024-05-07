@@ -1,6 +1,6 @@
 package com.aa.Spring_beans;
 
-public class Student_Model {
+public class Model {
 
 	 private String message;
 
