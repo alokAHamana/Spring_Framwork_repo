@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!--this file is used to give instrucion spring container about ki cointainer 
+		ko object create krna hai- kiska - student class ka -and give property -->
+
+	<bean class="com.aa.spring.beans.Students" id="stdId" scope ="prototype" >
+
+		<property name="name" value="Alok" />
+		<property name="rollno" value="1001" />
+		<property name="email" value="alok@gamil.com" />
+
+	</bean>
+
+</beans>
